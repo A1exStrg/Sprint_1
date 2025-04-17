@@ -12,7 +12,7 @@ for value in new_time:
             minutes = int(part.replace('m', ''))
             minute_all += minutes
         elif 's' in part:
-            seconds = int(part.replace('s', ''))
-            minute_all += seconds // 60
+            second = int(part.replace('s', ''))
+            minute_all += second // 60
 print(minute_all)
 
