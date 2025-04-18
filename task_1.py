@@ -6,8 +6,8 @@ for value in new_time:
     parts_of_time = value.split()
     for part in parts_of_time:
         if 'h' in part:
-            hour = int(part.replace('h', ''))
-            minute_all += hour * 60
+            hours = int(part.replace('h', ''))
+            minute_all += hours * 60
         elif 'm' in part:
             minutes = int(part.replace('m', ''))
             minute_all += minutes
